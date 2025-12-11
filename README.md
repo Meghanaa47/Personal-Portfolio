@@ -1,4 +1,4 @@
-# Personal Portfolio - Meghana Kontham
+# Personal Portfolio - Devi Kontham
 
 Welcome to my personal portfolio! This project showcases my skills, projects, certifications, and achievements as an aspiring Software Development Engineer.
 
