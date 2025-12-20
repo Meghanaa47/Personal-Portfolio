@@ -448,3 +448,165 @@ footer {
   background: linear-gradient(0deg, #8621f1, #dc5eff);
   transform: scale(1.05);
 }
+
+@media (max-width: 768px) {
+  nav {
+    display: none;
+  }
+
+  .btn-resume {
+    padding: 6px 16px;   /* smaller padding */
+    font-size: 0.9rem;   /* smaller font size */
+    margin-top: 15px;    /* optional: adjust spacing */
+  }
+
+  .btn-resume:hover {
+    transform: scale(1.02); /* slightly smaller hover effect */
+  }
+
+  /* Home Section */
+  #home {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .home-left, .home-right {
+    flex: unset;
+    width: 100%;
+  }
+
+  .home-left {
+    order: 2;
+  }
+
+  .home-right {
+    order: 1;
+    margin-bottom: 20px;
+  }
+
+  .profile-photo {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto 20px auto;
+  }
+
+  .home-intro {
+    font-size: 0.7rem;
+    line-height: 1.5;
+    margin: 10px auto;
+  }
+
+  .home-line {
+    width: 60%;
+    margin: 10px auto;
+  }
+
+  /* Skills Section */
+  #skills {
+    padding: 40px 20px;
+  }
+
+  .skills-bars {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  /* Projects Section */
+  #projects {
+    padding: 40px 20px;
+  }
+
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .project-card {
+    width: 80%;
+    min-height: auto;
+    padding: 10px;
+  }
+  .project-info h3 {
+    font-size: 1.1rem;
+  }
+  .project-info p{
+    font-size: 0.7rem;
+  }
+  /* Certificates Section */
+  #certificates {
+    padding: 10px 10px;
+    align-items: center;
+  }
+
+  .certifications-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .cert-card {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .cert-card h3 {
+    font-size: 1rem;
+  }
+
+  .cert-card p, .cert-card a {
+    font-size: 0.7rem;
+  }
+
+  /* Contact Section */
+  #contact {
+    padding: 20px 10px;
+  }
+
+  .contact-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.95rem;
+    padding: 10px;
+  }
+
+  .btn-submit {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+  }
+
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px 10px;
+  }
+
+  .footer-social {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .footer-social a {
+    font-size: 1.4rem;
+  }
+
+  /* Buttons and Links */
+  .btn-resume, .project-overlay .btn {
+    width: 80%;
+    text-align: center;
+    margin: 10px auto;
+    padding: 12px 0;
+    font-size: 1rem;
+  }
+}
